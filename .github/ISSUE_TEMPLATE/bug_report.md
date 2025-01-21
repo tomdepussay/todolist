@@ -1,3 +1,11 @@
+---
+name: Rapport de bug
+about: Rapporter un bug
+title: "[bug] "
+labels: bug
+assignees: ''
+---
+
 # Rapport de bug
 
 ## Description

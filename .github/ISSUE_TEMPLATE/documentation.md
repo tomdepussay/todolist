@@ -1,3 +1,11 @@
+---
+name: Modification de la documentation
+about: Demander une modification dans la documentation
+title: "[documentation] "
+labels: documentation
+assignees: ''
+---
+
 # Demande de modification de la documentation
 
 ## Description de la demande

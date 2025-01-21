@@ -1,3 +1,11 @@
+---
+name: Demande de fonctionnalité
+about: Demander une nouvelle fonctionnalité
+title: "[feature] "
+labels: feature
+assignees: ''
+---
+
 # Deamnde de fonctionnalité
 
 **Nom de la fonctionnalité** :

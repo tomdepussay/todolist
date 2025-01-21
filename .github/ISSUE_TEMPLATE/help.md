@@ -1,3 +1,11 @@
+---
+name: Demande d'aide
+about: Demander de l'aide
+title: "[help] "
+labels: help
+assignees: ''
+---
+
 # Demande d'aide
 
 ## Description de votre demande
