@@ -6,7 +6,7 @@ labels: feature
 assignees: ''
 ---
 
-# Deamnde de fonctionnalité
+# Demande de fonctionnalité
 
 **Nom de la fonctionnalité** :
 (Entrez un titre)
