@@ -17,6 +17,7 @@ export default function Home() {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState("");
 
+  // Correction du bug pour l'ajout
   const addTodo = () => {
     if (newTodo.trim()) {
       setTodos([...todos, { id: Date.now(), text: newTodo, completed: false }]);
