@@ -27,6 +27,13 @@ export default function Home() {
 
   // Correction du bug d'accès au site !
 
+  const editTodo = () => {
+    if (newTodo.trim()) {
+      setTodos([...todos, { id: Date.now(), text: newTodo, completed: false }]);
+      setNewTodo("");
+    }
+  };
+
   const toggleTodo = (id: number) => {
     setTodos(
       todos.map((todo) =>
@@ -65,6 +72,9 @@ export default function Home() {
               />
               <Button onClick={addTodo}>
                 <PlusCircle className="h-5 w-5" />
+              </Button>
+              <Button onClick={editTodo}>
+                <Edit className="h-5 w-5" />
               </Button>
             </div>
 
