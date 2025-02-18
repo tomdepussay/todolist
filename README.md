@@ -5,6 +5,7 @@ Une application de gestion de tâche simple et efficace pour vous aider à organ
 
 ## Fonctionnalité
 Vous pouvez ajouter, supprimer et cocher des tâches.
+Vous pouvez les modifier et mettre une priorité.
 
 ## Installation
 ```bash
