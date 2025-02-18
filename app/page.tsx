@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { PlusCircle, Trash2 } from "lucide-react";
+import { PlusCircle, Trash2, Edit } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -64,6 +64,7 @@ export default function Home() {
           <CardContent>
             <div className="flex gap-2 mb-6">
               <Input
+                type="text"
                 placeholder="Ajouter une tâche..."
                 value={newTodo}
                 onChange={(e) => setNewTodo(e.target.value)}
