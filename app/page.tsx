@@ -77,6 +77,7 @@ export default function Home() {
               <Button onClick={editTodo}>
                 <Edit className="h-5 w-5" />
               </Button>
+              {/* Voir la priorité */}
             </div>
 
             <div className="space-y-3">
