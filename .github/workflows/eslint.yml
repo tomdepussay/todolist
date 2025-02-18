@@ -5,8 +5,6 @@ on:
     branches: ["*"]  # This will trigger the workflow for all branches
   pull_request:
     branches: ["*"]  # This will trigger the workflow for PRs on any branch
-  schedule:
-    - cron: '24 8 * * 5'  # This will run the workflow on Friday at 8:24 AM UTC
 
 jobs:
   eslint:
