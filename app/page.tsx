@@ -25,6 +25,8 @@ export default function Home() {
     }
   };
 
+  // Correction du bug d'accès au site !
+
   const toggleTodo = (id: number) => {
     setTodos(
       todos.map((todo) =>
